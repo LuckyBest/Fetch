@@ -1,0 +1,46 @@
+a {
+  margin-top: 20px;
+}
+
+.container {
+  cursor: pointer;
+  margin-top: 20px;
+  height: 50px;
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #000;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: scale(1.03);
+    box-shadow: 4px 4px 4px rgb(122, 49, 170);
+  }
+
+  &_content {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &_img {
+      height: 100%;
+      width: 30%;
+
+      & img {
+        height: 100%;
+      }
+    }
+
+    &_name {
+      width: 30%;
+    }
+  }
+
+  &_repos_data {
+  }
+}
